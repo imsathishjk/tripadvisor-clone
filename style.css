@@ -11,7 +11,7 @@ body {
 .homebar {
     display: flex;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
     align-items: center;
     gap: 100px;
     justify-content: flex-start;
@@ -1135,6 +1135,10 @@ span {
     /* Reward Section Ends */
     .homebar {
         justify-content: space-evenly;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 10;
     }
 
     .heading h1 {
@@ -1344,6 +1348,10 @@ span {
     /* Home Bar Style Starts */
     .homebar {
         justify-content: space-around;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 10;
     }
 
     .heading h1 {
@@ -2440,6 +2448,10 @@ span {
 
     .homebar {
         justify-content: space-evenly;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 10;
     }
 
     .nav-menu {
@@ -2870,6 +2882,9 @@ span {
     .destination-2 {
         display: none;
     }
+    .reward-2{
+        display: none;
+    }
 }
 
 /* Device = Laptops, Desktops */
@@ -2980,6 +2995,9 @@ span {
     }
 
     .destination-2 {
+        display: none;
+    }
+    .reward-2{
         display: none;
     }
 }
@@ -3097,51 +3115,7 @@ span {
     .destination-2 {
         display: none;
     }
+    .reward-2{
+        display: none;
+    }
 }
-
-/* Image Container Styles */
-/* .image-container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.header-img {
-    position: relative;
-}
-.header-img img{
-    border-radius: 10px;
-}
-.tile-text {
-    padding: 20px;
-    position: absolute;
-    bottom: 60px;
-    color: white;
-    left: 10px;
-}
-
-.tile-text h1 {
-    font-size: 40px;
-}
-
-.tile-text p {
-    font-size: 18px;
-}
-
-.guide {
-    background-color: white;
-    color: black;
-    width: 15%;
-    padding: 10px;
-    border-radius: 20px;
-    text-align: center;
-    font-weight: 600;
-    position: absolute;
-    bottom: 25px;
-    left: 20px;
-}
-
-.guide:hover {
-    background-color: #e0e0e0;
-    cursor: pointer;
-} */
